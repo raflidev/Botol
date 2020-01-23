@@ -1,44 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/f52e226df8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Botol</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/f52e226df8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,700,900&display=swap" rel="stylesheet">
+
+
+    <meta name="turbolinks-cache-control" content="no-preview">
+    <link rel="canonical" href="">
+    <title>Botol.best - Grup perwibuan</title>
+    <meta name="title" content="Botol.best - Grup perwibuan">
+    <meta name="description" content="Grup bocah perwibuan yang mencoba ingin membuat website dengan quotes mereka">
+
+    <meta property="og:site_name" content="Botol.best Grup">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Botol.best - Grup perwibuan">
+    <meta property="og:description"
+        content="Grup bocah perwibuan yang mencoba ingin membuat website dengan quotes mereka">
+    <meta property="og:image" content="img/botol.png">
+
+    <meta name="twitter:domain" content="www.botol.best">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:title" content="Botol.best - Grup perwibuan">
+    <meta name="twitter:description"
+        content="Grup bocah perwibuan yang mencoba ingin membuat website dengan quotes mereka">
+    <meta name="twitter:image" content="img/botol.png">
 </head>
 
-<body>
-    <ul class="nav justify-content-center fixed-top bg-danger mb-3">
-        <img src="img/botol.png" height="50" alt="Responsive image">
-    </ul>
-    <div class="container my-5 justify-content-center">
-        <div class="text-center justify-content-center mt-5">
-            <p><br>
-                <h2>Tentang Kami</h2>
-                <b>BOTOL</b>, singkatan dari botak lolot. Organisasi yang sudah berdiri sejak 2017, dimana diisi oleh
-                orang-orang yang sangat berguna didunia dan akhirat.
-                Kami disini beranggotakan 6 orang. Ada wibu, kang ketik, mantan kpoper, penggila game dan orang yang
-                tidak beguna
-                sama sekali.
-            </p>
-            <hr>
-            <h2>Anggota</h2>
-        </div>
 
+<body>
+    <div class="bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row text-center">
+                        <div class="col-sm-6">
+                            <span class="jam" id='jam'></span>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button" id='btn-jadwal' class="btn jam" data-toggle="modal"
+                                data-target="#exampleModal">
+                                JADWAL SHOLAT
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <span id="jadwal" class='jam'>
+                        <span id="subuh"></span>
+                        <span id="dzuhur"></span>
+                        <span id="azhar"></span>
+                        <span id="maghrib"></span>
+                        <span id="isya"></span>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container top">
+        <hr class="hr-1">
+        <h1 class="black-font header-font mb-5">BOTOL<br>OFFICIAL<br>WEBSITE</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <hr class="hr-2">
+                <h2 class="bold-font mb-4">Tentang kami</h2>
+                <p>BOTOL, singkatan dari botak lolot. Organisasi yang sudah berdiri sejak 2017, dimana diisi oleh
+                    orang-orang yang sangat berguna didunia dan akhirat. Kami disini beranggotakan 6 orang. Ada
+                    wibu,
+                    kang
+                    ketik, mantan kpoper, penggila game dan orang yang tidak berguna sama sekali.</p>
+                <hr class="hr-3">
+                <img src="img/botol.png" class="img-fluid" alt="logo botol" srcset="">
+                <hr class="hr-3">
+                <h2 class="bold-font sub-content margin-sub">Developing</h2>
+                <h2 class="bold-font mb-4">Anime List</h2>
+                <p>
+                    Memberikan update Anime list yang akan datang dimusim ini. <br>
+                    <a class="btn btn-warning" href="anime-list">Disini Akses</a>
+                </p>
+
+            </div>
+            <div class="col-md-1 col-sm-12"></div>
+            <div class="col-md-6 col-sm-12">
+                <hr class="hr-2">
+                <h2 class="bold-font sub-content margin-sub">SEMINAR</h2>
+                <h2 class="content bold-font">DevFest Bogor</h2>
+                <p>
+                    Google Devfest Bogor di Balai Besar Industri Agro (BBIA), seminar tersebut membahas tentang
+                    perkembangan Android bahasa Flutter dalam pembuatan Android dan membahas berbedaan performa
+                    Android
+                    bahasa Java dengan Flutter. dan memang lebih dalam membahas pembuatan aplikasi Android
+                </p>
+                <hr class="hr-3">
+
+                <h2 class="bold-font sub-content margin-sub">SEMINAR</h2>
+                <h2 class="content bold-font">DevFest Jakarta</h2>
+                <p>
+                    Google Devfest Jakarta di Upper Room Thamrin, seminar tersebut membahas tentang perkembangan
+                    Android
+                    10, memperkenalkan teknologi cloud untuk Startup, membahas teknologi didalam Startup dan
+                    Teknologi
+                    mendalam terhadap Website
+                </p>
+                <hr class="hr-3">
+
+                <h2 class="bold-font sub-content margin-sub">SEMINAR</h2>
+                <h2 class="content bold-font">Ujikom RPL</h2>
+                <p>
+                    Bimbingan Uji kompetensi di STMIK Bani Saleh Bekasi, membahas tentang breakdown Uji Kompetensi
+                    jurusan RPL dan memperkenalkan Kampus SMTIK Bani Saleh
+                </p>
+
+            </div>
+        </div>
+        <hr class="hr-2">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 mt-4">
+                <h2 class="content bold-font">Anggota</h2>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <p>
+                    Daftar biodata para anggota botol yang mungkin dan bisa jadi tidak sangat di perlukan
+                </p>
+            </div>
+        </div>
         <div class="row mx-auto">
-            <div class="col-sm-4">
-                <div class="card mt-3" style="width: 22rem;">
-                    <img class="card-img-top" src="img/profile/raf.png" alt="Card image cap">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img class="card-img-top" src="img/profile/raf.png" alt="raflidev">
                     <div class="card-body">
                         <div class="float-right">
                             <div class="badge badge-success">Staff</div>
                         </div>
                         <h5 class="card-title">Rafli Ramadhan</h5>
                         <h6 class="card-subtitle mb-2 text-muted">@raflidev</h6>
-                        <p class="card-text">Tukang ketik program sekaligus tukang pengembangan teknologi website.</p>
+                        <p class="card-text">Tukang ketik program sekaligus tukang pengembangan teknologi website.
+                        </p>
                         <i class="fas fa-link"> </i>
                         <a href="https://rafli1337ex.blogspot.com/" target="_blank">rafli1337ex.blogspot.com</a><br>
                         <i class="fas fa-map-marker-alt"> </i> Bekasi - Indonesia <br>
@@ -46,9 +151,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card mt-3" style="width: 22rem;">
-                    <img class="card-img-top" src="img/profile/ren.jpg" alt="Card image cap">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img class="card-img-top" src="img/profile/ren.jpg" alt="ren">
                     <div class="card-body">
                         <div class="float-right">
                             <div class="badge badge-secondary">Member</div>
@@ -63,9 +168,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card mt-3" style="width: 22rem;">
-                    <img class="card-img-top" src="img/profile/ibnu.jpeg" alt="Card image cap">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img class="card-img-top" src="img/profile/ibnu.jpeg" alt="ibnu">
                     <div class="card-body">
                         <div class="float-right">
                             <div class="badge badge-info">Owner</div>
@@ -80,9 +185,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card mt-3" style="width: 22rem;">
-                    <img class="card-img-top" src="img/profile/aldi.jpeg" alt="Card image cap">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img class="card-img-top" src="img/profile/aldi.jpeg" alt="aldi">
                     <div class="card-body">
                         <div class="float-right">
                             <div class="badge badge-secondary">Member</div>
@@ -97,12 +202,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card mt-3" style="width: 22rem;">
-                    <img class="card-img-top" src="img/profile/reii.jpeg" alt="Card image cap">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img class="card-img-top" src="img/profile/reii.jpeg" alt="reynaldi">
                     <div class="card-body">
                         <div class="float-right">
-                            <div class="badge badge-secondary">Member</div>
+                            <div class="badge badge-danger">Assistant</div>
                         </div>
                         <h5 class="card-title">Muhammad Reynaldi K</h5>
                         <h6 class="card-subtitle mb-2 text-muted">@m.reynaldi.k</h6>
@@ -114,28 +219,56 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card mt-3" style="width: 22rem;">
-                    <img class="card-img-top" src="img/profile/ridwan.jpeg" alt="Card image cap">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img class="card-img-top" src="img/profile/wan.jpeg" alt="ridwan">
                     <div class="card-body">
                         <div class="float-right">
                             <div class="badge badge-secondary">Member</div>
                         </div>
                         <h5 class="card-title">Ridwan Bradrudin</h5>
                         <h6 class="card-subtitle mb-2 text-muted">@bradrudinbr4ds</h6>
-                        <p class="card-text">Teman itu adalah orang yang menyelamatkan dari neraka yang bernama
-                            kesepian.</p>
-                        <i class="fas fa-map-marker-alt"> </i> Bekasi - Indonesia <br>
-                        <i class="far fa-envelope"> </i> xkaitodelax@gmail.com
+                        <p class="card-text">Sukses berawal dari mimpi oleh karena itu mari kita perbanyak tidur<p>
+                                <i class="fas fa-link"> </i>
+                                <a href="https://skuybe.blogspot.com" target="_blank">skuybe.blogspot.com</a><br>
+                                <i class="fas fa-map-marker-alt"> </i> Bekasi - Indonesia <br>
+                                <i class="far fa-envelope"> </i> xkaitodelax@gmail.com
                     </div>
                 </div>
             </div>
         </div>
+        <div class="white-text text-center footer">
+            <p>&copy; 2017 - 2019 Botol</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role=" document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Jadwal Sholat</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="jadwal-sholat">
 
-    </div>
-    <div class="bg-danger text-white p-2 text-center">
-        Rafli Ramadhan - Bekasi 2019
-    </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Extend Javascipt Library -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Main Javascipt -->
+        <script src="js/main.js"></script>
+
+
+
 </body>
 
 </html>

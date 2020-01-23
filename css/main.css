@@ -1,0 +1,103 @@
+@font-face {
+    font-family: FontJam;
+    src: url(../jam.ttf);
+  }
+body{
+    color:#393939;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 23px;
+}
+body .top{
+    margin-top: 10px;
+}
+.black-font{
+    font-weight: 900;
+}
+.bold-font{
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+.reguler-font{
+    font-weight: 400;
+}
+.header-font{
+    font-size: 127px;
+}
+.hr-1{
+    border-top: 15px solid #393939
+}
+.hr-2{
+    border-top: 10px solid #393939
+}
+.hr-3{
+    border-top: 3px solid #393939
+}
+.content{
+    font-size:50px;
+}
+
+.sub-content{
+    font-size:25px;
+}
+.margin-sub{
+    margin-top: 32px;
+}
+.card-body{
+    font-size: 18px;
+}
+.footer{
+    margin-top: 20px;
+    font-size:18px;
+}
+.jam{
+    font-family: FontJam;
+    color: #00ff00;
+    font-size: 14px;
+  }
+  #jadwal{
+    font-family: FontJam;
+    color: #00ff00;
+    font-size: 16px;
+  }
+  #jadwal span{
+      margin-right: 30px;
+  }
+.bg-black{
+    background-color: #000;
+}
+
+#jadwal-sholat{
+    font-size:12px;
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .mb-5, .mb-4{
+        margin-bottom: 12px!important;
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size:21px;
+    }
+    .content{
+        font-size:45px;
+    }
+    .card-body{
+        font-size: 17px;
+    }
+    .card-body p{
+        font-size: 17px;
+    }
+    .sub-content{
+        font-size:20px;
+    }
+    .header-font{
+        font-size: 60px;
+        margin-bottom: 60px!important;
+    }
+}
+  
